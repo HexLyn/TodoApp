@@ -1,4 +1,4 @@
-package org.scoula.lib.cli.exception;
+package org.scoula.todo.exception;
 
 public class BadMenuException extends Exception{
     public BadMenuException(){
