@@ -1,12 +1,13 @@
 package org.scoula.todo.command;
 
 import org.scoula.lib.cli.ui.Input;
+import org.scoula.todo.dao.TodoDao;
 import org.scoula.todo.dao.TodoListDao;
 import org.scoula.todo.domain.Todo;
 
 
 public class UpdateTodoCommand implements Command {
-    TodoListDao dao = TodoListDao.getInstance();
+    TodoDao dao = TodoListDao.getInstance();
 
     @Override
     public void execute() {

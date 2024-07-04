@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
 
 
 @Data
@@ -18,8 +18,8 @@ public class Todo implements Cloneable {
 
     private int id;
     private String title;
-    private boolean done;
     private String description;
+    private boolean done;
     private Date date;
 
     @Builder

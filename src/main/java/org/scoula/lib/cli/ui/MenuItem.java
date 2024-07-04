@@ -15,7 +15,7 @@ public class MenuItem {
         return name;
     }
 
-    public void execute() {
-        command.execute();
+    public Command getCommand() {
+        return command;
     }
 }
