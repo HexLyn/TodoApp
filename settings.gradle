@@ -2,4 +2,3 @@ rootProject.name = 'TodoApp'
 
 include ':Scoulacli'
 project(':Scoulacli').projectDir=new File('C:\\Users\\student\\IdeaProjects\\ScoulaLib')
-
