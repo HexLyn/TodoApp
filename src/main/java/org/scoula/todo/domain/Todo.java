@@ -13,7 +13,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Todo implements Cloneable {
+public class Todo implements Cloneable { // 인터페이스를 구현하면 복제가능.
     private static int gid = 1;
 
     private int id;
@@ -27,7 +27,7 @@ public class Todo implements Cloneable {
         this(gid++, title, description, done, new Date());
     }
     @Override
-    public Object clone() {
+    public Object clone() { //Cloneable을 사용하면 clone 을 명시해야 함.
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
