@@ -23,17 +23,3 @@ public class TodoApp extends App {
         app.run();
     }
 }
-//    public void run() {
-//        init();
-//
-//        while(true) {
-//            try {
-//                menu.printMenu();
-//                Command command = menu.getSelect();
-//                command.execute();
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-//    }
-//}
